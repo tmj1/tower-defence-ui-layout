@@ -1,0 +1,25 @@
+.input-place {
+    margin: 20px 0 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.input-place .input.full-width {
+    max-width: 100%;
+    flex: 1 0 80%;
+}
+
+.input-place .input.full-width .input__control {
+    height: 100%;
+}
+
+.input-place .send-message-btn {
+    width: 82px;
+    height: 62px;
+    background-image: url(../../../assets/icons/send-message.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 10px 0;
+}

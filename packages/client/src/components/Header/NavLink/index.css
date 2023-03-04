@@ -1,0 +1,35 @@
+.navigation-link {
+  font-family: var(--font-secondary);
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: 0.06em;
+  text-transform: capitalize;
+  color: var(--color-text-primary);
+  transition: color 0.3s ease-in;
+}
+
+.navigation-link::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 3px;
+  background-color: var(--color-ui-primary);
+  transition: 0.3s ease;
+}
+
+.navigation-link_active {
+  color: var(--color-ui-primary);
+}
+
+.navigation-link_active::after {
+  width: 100%;
+}
+
+.navigation-link_hidden {
+  display: none;
+}
+
+.navigation-link:hover {
+  color: var(--color-text-primary);
+}
